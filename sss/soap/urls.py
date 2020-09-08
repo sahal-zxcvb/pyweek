@@ -3,5 +3,5 @@ from .views import index,git_fetch
 
 urlpatterns=[
     path('',index,name='index'),
-    path('hello/',git_fetch,name='git_fetch'),
+    path('hell/',git_fetch,name='git_fetch'),
 ]

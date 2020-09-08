@@ -5,3 +5,6 @@ class certificate(models.Model):
     name=models.CharField(max_length=100)
     college=models.CharField(max_length=200)
     hash=models.CharField(max_length=300)
+
+    def __str__(self):
+        return self.name
