@@ -1,9 +1,9 @@
 <h1>email and certificate button page</h1>
 
-<form action="hello/" method="POST">
-{% csrf_token %}
-<input type="text" name="email">
-<br>
-<input type="button" value="find_my_certificate">
-<br>
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name="email">
+    <br>
+    <input type="submit" value="find_my_certificate">
+    <br>
 </form>

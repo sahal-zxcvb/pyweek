@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import certificate
+from .models import Certificate
 
-admin.site.register(certificate)
+admin.site.register(Certificate)
